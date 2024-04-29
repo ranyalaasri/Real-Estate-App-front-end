@@ -13,7 +13,7 @@ const Hero = () => {
           <br /> and secure your dream home with us. <br /> Your journey to the
           perfect living space begins here.
         </div>
-        <div className="mt-6 flex-align-center gap-x-3">
+        <div className="mt-6 flex-align-center gap-x-3 ">
         
         <Link to={'/properties'} > 
         <button className="btn btn-primary">find property</button>

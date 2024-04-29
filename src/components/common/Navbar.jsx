@@ -32,7 +32,7 @@ const Navbar = () => {
   useEffect(() => {
     if (darkMode) rootDoc.classList.add("dark");
     else rootDoc.classList.remove("dark");
-    localStorage.setItem("Martvilla-theme-mode", JSON.stringify(darkMode));
+    localStorage.setItem("RYMZ-theme-mode", JSON.stringify(darkMode));
   }, [darkMode]);
 
   const handleClose = (e) => {
@@ -57,7 +57,7 @@ const Navbar = () => {
     >
       <Link to="/" className="flex-shrink-0 flex-align-center gap-x-1">
         <BiBuildingHouse className="text-3xl text-primary" />
-        <h1 className="hidden md:block">MartVilla</h1>
+        <h1 className="hidden md:block">RYMZ</h1>
       </Link>
 
       <div className="flex-align-center gap-x-4">

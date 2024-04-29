@@ -49,19 +49,20 @@ const Filters = () => {
                   id=""
                   className="w-full bg-transparent border-0 outline-none text-slate-500"
                 >
-                  <option value="$40,000 - $80,000">$40,000 - $80,000</option>
-                  <option value="$80,000 - $120,000">$80,000 - $120,000</option>
-                  <option value="$120,000 - $200,000">
-                    $120,000 - $200,000
+                 
+                  <option value="MAD 100,000 - MAD 150,000">MAD 100,000 - MAD 150,000</option>
+                  <option value="MAD 150,000 - MAD 200,000">
+                    MAD 120,000 - MAD 300,000
                   </option>
-                  <option value="$200,000 - $300,000">
-                    $200,000 - $300,000
+                  <option value="MAD 300,000 - MAD 500,000">
+                    MAD 300,000 - MAD 500,000
                   </option>
-                  <option value="$300,000 - $500,000">
-                    $300,000 - $500,000
+                  
+                  <option value="MAD 500,000 - MAD 1000,000">
+                    MAD 500,000 - MAD 1000,000
                   </option>
-                  <option value="$500,000 - $1000,000">
-                    $500,000 - $1000,000
+                  <option value="MAD 1000,000 - et plus">
+                     MAD 1000,000 et plus
                   </option>
                 </select>
               </div>

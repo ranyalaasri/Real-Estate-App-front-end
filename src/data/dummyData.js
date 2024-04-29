@@ -22,9 +22,9 @@ import { FiHeadphones } from "react-icons/fi";
 export const property = [
   {
     id: 1,
-    name: "Villa on washingt on avenue",
+    name: "Villa on Marrakech",
     location: "Oregon, Homeland Street, plot 345",
-    price: "450,000",
+    price: "6,500,000",
     distance: "1.2km",
     purpose: "sale",
     number_of_beds: 3,
@@ -686,19 +686,19 @@ export const focus = [
     id: 1,
     name: "Buy a New Home",
     icon: <BiHomeAlt />,
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod earum commodi provident est ex similique.",
+    text: "Embark on the journey to find your perfect abode with our extensive listings and comprehensive services.",
   },
   {
     id: 2,
     name: "Sell a Home",
     icon: <BiMoney />,
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod earum commodi provident est ex similique.",
+    text: "Maximize your property's value and find the right buyer with our comprehensive sales support and market insights.",
   },
   {
     id: 4,
     name: "Rent a Home",
     icon: <BiBuildings />,
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod earum commodi provident est ex similique.",
+    text: "Discover your ideal rental from our wide selection of well-maintained and strategically located properties.",
   },
 ];
 

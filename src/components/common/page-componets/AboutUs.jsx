@@ -17,12 +17,11 @@ const AboutUs = () => {
           />
         </div>
         <div className="relative flex-1 basis-[22rem]">
-          <h1 className="sub-heading">about us</h1>
-          <h1 className="heading">we decorate your home environment</h1>
+          <h2 className="sub-heading">about us</h2>
+          <h2 className="heading">Discover Your Ideal Home</h2>
           <p className="mt-3">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo laborum
-            earum saepe quibusdam, temporibus aut sapiente, ea alias libero,
-            ipsam perferendis. Consectetur maiores, dicta.
+          At RYMZ, we are dedicated to helping you find not just a house, but a place you can call home. 
+          Our team goes beyond the listings to understand your dreams and aspirations, ensuring every recommendation leads you to a space where memories will be cherished.
           </p>
           <div className="mt-4">
             <div className="flex-align-center gap-x-2">
@@ -31,11 +30,10 @@ const AboutUs = () => {
               </div>
               <div>
                 <h1 className="font-semibold capitalize">
-                  the perfect residency
+                 Crafting Homes, Not Just Houses
                 </h1>
                 <p>
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Saepe, quisquam?
+                Find your perfect place with personalized service that understands your need for a home that's as unique as you are.
                 </p>
               </div>
             </div>
@@ -46,11 +44,10 @@ const AboutUs = () => {
               </div>
               <div>
                 <h1 className="font-semibold capitalize">
-                  global architect experts
+                the perfect residency 
                 </h1>
                 <p>
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Saepe, quisquam?
+                We match you with residences that fit your lifestyle, ensuring every property we suggest feels like a natural extension of your life.
                 </p>
               </div>
             </div>
@@ -61,11 +58,10 @@ const AboutUs = () => {
               </div>
               <div>
                 <h1 className="font-semibold capitalize">
-                  total payment transparency
+                Clear Cut Financials
                 </h1>
                 <p>
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Saepe, quisquam?
+                With us, what you see is what you get — transparent pricing and straightforward advice that puts your financial welfare first.
                 </p>
               </div>
             </div>

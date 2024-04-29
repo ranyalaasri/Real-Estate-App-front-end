@@ -77,7 +77,40 @@ footer a:hover {
 .btn-primary {
   @apply bg-primary text-white hover:bg-[#f7751e] shadow-md shadow-primary/60;
 }
+.btn-primary {
+  background: linear-gradient(to right, #e8471e, #ed6e0d); /* Orange gradient */
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 600;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  outline: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
+}
+.btn-primary:hover,
+.btn-primary:focus {
+  background: linear-gradient(to right, #ff7e5f, #feb47b); /* Maintain orange gradient */
+  transform: translateY(-2px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+.btn-primary:active {
+  background: linear-gradient(to right, #e76f51, #ff9a76); /* Slightly darker orange gradient */
+  transform: translateY(1px);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+}
 
+.icon-box:hover,
+.icon-box:focus {
+  background-color: #feb47b; /* Lighter orange color */
+  transform: scale(1.1);
+}
+
+.icon-box:active {
+  background-color: #e76f51; /* Slightly darker orange color */
+}
 .btn-secondary {
   @apply bg-secondary text-white hover:bg-[#02293e];
 }
