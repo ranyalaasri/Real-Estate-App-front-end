@@ -11,13 +11,14 @@ export const navLinks = [
   },
   {
     id: 3,
-    linkText: "About Us",
-    url: "/about-us",
+    linkText: "Agencies",
+    url: "/agencies",
   },
   {
     id: 4,
-    linkText: "Blogs",
-    url: "/blogs",
+    linkText: "About Us",
+    url: "/about-us",
+   
   },
   {
     id: 5,

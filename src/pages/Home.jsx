@@ -1,6 +1,6 @@
 import {
   AboutUs,
-  Brands,
+  
   Categories,
   Featured,
   Feeds,
@@ -11,7 +11,7 @@ import {
   Filters,
   GetInTouch,
   Hero,
-  Testimonial,
+ 
 } from "../components/home";
 
 const Home = () => {
@@ -26,9 +26,9 @@ const Home = () => {
         <Categories />
         <GetInTouch />
         <Team />
-        <Testimonial />
+        
         <Feeds />
-        <Brands />
+        
       </div>
     </div>
   );

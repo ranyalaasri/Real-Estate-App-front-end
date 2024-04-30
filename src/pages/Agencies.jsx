@@ -9,7 +9,7 @@ import {
 } from "../components/common/page-componets";
 import { feeds } from "../data/dummyData";
 
-const Blogs = () => {
+const Agencies = () => {
   return (
     <div className="pt-20 px-[3%] md:px-[6%]">
       <div className="grid grid-cols-1 mt-5 md:grid-cols-3 gap-x-14">
@@ -34,4 +34,4 @@ const Blogs = () => {
   );
 };
 
-export default Blogs;
+export default Agencies;

@@ -10,7 +10,6 @@ import NewsLetter from "./components/common/NewsLetter";
 import { closeDropdown } from "./features/uiSlice";
 import {
   About,
-  Blogs,
   Contact,
   Faqs,
   Home,
@@ -18,6 +17,8 @@ import {
   Properties,
   PropertyDetails,
 } from "./pages";
+import Agencies from "./pages/Agencies";
+
 function App() {
   const [showButton, setShowButton] = useState(false);
   const [showLoader, setShowLoader] = useState(false);
@@ -58,7 +59,7 @@ function App() {
           <Route path="/about-us" element={<About />} />
           <Route path="/properties" element={<Properties />} />
           <Route path="/property-details/:id" element={<PropertyDetails />} />
-          <Route path="/blogs" element={<Blogs />} />
+          <Route path="/agencies" element={<Agencies />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/faqs" element={<Faqs />} />
           <Route path="*" element={<PageNotFound />} />

@@ -19,6 +19,7 @@ const WhatWeDo = () => {
             <h1 className="mt-2 heading !text-xl">{name}</h1>
             <p className="mt-2">{text}</p>
             <div className="hidden mt-4 group-hover:flex-center-center ">
+              
               <button className="btn btn-primary">view more details</button>
             </div>
           </div>

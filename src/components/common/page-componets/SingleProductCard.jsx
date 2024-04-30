@@ -65,8 +65,12 @@ const SingleProductCard = ({
         </div>
 
         <div className="mt-4 flex-center-between">
-          <h1 className="text-lg font-semibold text-primary">${price}</h1>
+          <h1 className="text-lg font-semibold text-primary">MAD{price}</h1>
+          <Link to={`/property-details/${id}`}>
           <button className="btn btn-secondary">details</button>
+          </Link>
+         <div>
+       </div>
         </div>
       </div>
     </div>
