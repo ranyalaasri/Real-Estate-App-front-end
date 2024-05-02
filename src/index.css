@@ -1,4 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Mulish&family=Nunito&family=Nunito+Sans:wght@400;600&family=Poppins:ital,wght@0,400;0,500;1,300;1,400&family=Questrial&family=Raleway&display=swap");
+/* slick.css */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css');
 
 @tailwind base;
 @tailwind components;
@@ -111,6 +114,25 @@ footer a:hover {
 .icon-box:active {
   background-color: #e76f51; /* Slightly darker orange color */
 }
+
+.react-datepicker__day--selected,
+.react-datepicker__day--keyboard-selected,
+.react-datepicker__day:hover,
+.react-datepicker__day--in-range,
+.react-datepicker__day--selected:hover,
+.react-datepicker__day--keyboard-selected:hover {
+    background-color: #ff7e5f !important; /* Adjust the color code to match your desired shade of orange */
+}
+
+.react-datepicker__header {
+    background-color: #feb47b !important;
+}
+
+/* Border color for the focused elements */
+.react-datepicker__day--keyboard-selected {
+    border: 1px solid #ff7e5f !important;
+}
+
 .btn-secondary {
   @apply bg-secondary text-white hover:bg-[#02293e];
 }

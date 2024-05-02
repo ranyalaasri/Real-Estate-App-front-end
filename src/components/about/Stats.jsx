@@ -1,18 +1,17 @@
-const Stats = ({ id }) => {
+import React from 'react';
+import { MdBusiness } from 'react-icons/md'; // Importing icon for the title
+
+const Stats = ({ property }) => {
+  if (!property) return <div>Loading...</div>; // Loading state for when the property is not yet available
+
   return (
-    <div className="pt-10 pb-16">
-      <div className="text-center">
-        <h1 className="heading my-8">This is the name of Property {id}</h1>
-        <p className="mt-4">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum animi
-          aut enim unde illum magni asperiores quidem sint autem, dolor labore
-          voluptas ipsum blanditiis voluptate adipisci ducimus voluptatibus.
-          Magnam, suscipit.
-        </p>
+    <div className="bg-white shadow-lg rounded-lg overflow-hidden">
+      <div className="p-4">
+        <h1 className="text-2xl font-extrabold text-gray-800 flex items-center mt-10">
+          <MdBusiness className="mr-2 text-orange-500" size={24}/> {/* Icon next to the title */}
+          {property.name}
+        </h1>
       </div>
-     
-        
-     
     </div>
   );
 };

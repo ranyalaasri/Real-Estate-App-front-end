@@ -13,7 +13,7 @@ const SingleProductCard = ({
   number_of_beds,
   number_of_bathrooms,
   dimensions,
-  image,
+  images,
   basis,
 }) => {
   return (
@@ -25,7 +25,7 @@ const SingleProductCard = ({
       <div className="group !opacity-100 overflow-hidden relative">
         <Link to={`/property-details/${id}`} className="!opacity-100">
           <img
-            src={image}
+            src={images}
             alt={name}
             className="w-full  h-fit md:h-[250px] object-cover group-hover:scale-125 transition-a"
           />

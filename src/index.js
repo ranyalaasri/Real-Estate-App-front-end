@@ -13,7 +13,7 @@ root.render(
     <Router>
       <Provider store={store}>
         <AnimatePresence>
-          <App />
+          <App/>
         </AnimatePresence>
       </Provider>
     </Router>
