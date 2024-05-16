@@ -49,7 +49,7 @@ function App() {
       <Navbar />
       <Dropdown />
       <div
-        className="min-h-screen pb-40"
+        className="min-h-screen pb-60"
         onClick={handleCloseDropdown}
         onMouseOver={() => dispatch(closeDropdown())}
       >
@@ -66,7 +66,7 @@ function App() {
         </Routes>
       </div>
       <div className="px-[2%] md:px-[6%] bg-card-dark border border-card-dark">
-        <NewsLetter />
+        {/* <NewsLetter /> */}
         <div className="mt-20">
           <Footer />
         </div>

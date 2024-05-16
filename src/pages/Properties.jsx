@@ -1,64 +1,29 @@
-import { useState } from "react";
-import { FiDelete } from "react-icons/fi";
-import { useDispatch, useSelector } from "react-redux";
-import {
-  AdvancedSearch,
-  CTA,
-  HeadeFilters,
-  Pagination,
-  PriceRange,
-  PropertyFullWidth,
-  SocialIcons,
-  Type,
-} from "../components/common/page-componets";
-import { PropertyList } from "../components/property";
-import { property } from "../data/dummyData";
-import { closeFilterMenu, uiStore } from "../features/uiSlice";
+ import '@fortawesome/fontawesome-free/css/all.css';
+import SearchFilters from '../components/property/property-4/SearchFilter';
+import CardWithImageLeft from '../components/property/property-4/card/CardComponent';
+import MapVertical from '../components/property/property-4/mapComponent';
 
-const Properties = () => {
-  const { isFilterMenuOpen } = useSelector(uiStore);
-  const dispatch = useDispatch();
-  const handleCloseFiltermenu = (e) => {
-    if (e.target.classList.contains("filter-modal"))
-      dispatch(closeFilterMenu());
-  };
 
-  const [layout, setLayout] = useState("grid");
+// import MapVertical from '../Components/proprety/mapComponent';
+
+
+const properties = () => {
+  // Logique et état pour le composant principal
 
   return (
-    <div className="pt-20 px-[3%] md:px-[6%]">
-      <HeadeFilters layout={layout} setLayout={setLayout} />
-      <div className="grid md:grid-cols-4 gap-x-14 mt-5">
-        <div className="md:col-span-3 mt-5 md:mt-0 h-fit md:sticky top-0 ">
-          {layout === "grid" ? <PropertyList /> : <PropertyFullWidth />}
-          <Pagination itemsPerPage={8} pageData={property} />
+    <div>
+      <div className=" pt-10">
+      {/* JSX pour le composant principal */}
+      <SearchFilters />
+      </div>
+      <div className="flex flex-col lg:flex-row h-screen">
+        <div className="w-full lg:w-2/5">
+        <MapVertical/>
         </div>
-        <div className=" md:col-span-1 row-start-3 md:row-start-auto h-fit md:sticky top-0">
-          <div
-            className={`filter-modal ${isFilterMenuOpen && "open"}`}
-            onClick={handleCloseFiltermenu}
-          >
-            <div className={`filter-dialog ${isFilterMenuOpen && "open"}`}>
-              <div className="flex-center-between border-b dark:border-dark md:hidden">
-                <div
-                  className="icon-box md:hidden"
-                  onClick={() => dispatch(closeFilterMenu())}
-                >
-                  <FiDelete />
-                </div>
-                <p className="uppercase">Filters</p>
-              </div>
-              <AdvancedSearch />
-              <Type />
-              <PriceRange />
-              <SocialIcons />
-              <CTA />
-            </div>
-          </div>
-        </div>
+      <CardWithImageLeft />
       </div>
     </div>
   );
 };
 
-export default Properties;
+export default properties;

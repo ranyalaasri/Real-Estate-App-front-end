@@ -16,9 +16,9 @@ import {
 
 const Home = () => {
   return (
-    <div className="md:pt-[5.2rem] pt-10">
+    <div className=" pt-10">
       <Hero />
-      <Filters />
+      {/* <Filters /> */}
       <div className="mt-10 px-[3%] md:px-[6%]">
         <AboutUs />
         <WhatWeDo />

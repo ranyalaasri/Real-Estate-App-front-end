@@ -95,7 +95,7 @@ footer a:hover {
 }
 .btn-primary:hover,
 .btn-primary:focus {
-  background: linear-gradient(to right, #ff7e5f, #feb47b); /* Maintain orange gradient */
+  background: linear-gradient(to right, #ff7700, #d15e00); /* Maintain orange gradient */
   transform: translateY(-2px);
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
@@ -107,7 +107,7 @@ footer a:hover {
 
 .icon-box:hover,
 .icon-box:focus {
-  background-color: #feb47b; /* Lighter orange color */
+  background-color: #e46a0e; /* Lighter orange color */
   transform: scale(1.1);
 }
 

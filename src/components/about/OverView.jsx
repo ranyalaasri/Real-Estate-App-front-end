@@ -7,11 +7,7 @@ const OverView = () => {
         <div className="flex-1 basis-[18rem]">
           <h1 className="heading">what we do</h1>
           <p className="mt-3">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus
-            earum, laboriosam soluta, sit natus corporis ab ullam vel voluptates
-            inventore ipsa repudiandae minus? Non, deleniti! Quos reiciendis
-            saepe voluptatem accusantium nemo praesentium reprehenderit nostrum
-            veritatis.
+          At RYMZ, we simplify the process of finding your dream home. Whether you're looking to buy, sell, or rent, our user-friendly platform connects you with a wide range of properties tailored to your preferences.  ensure you have access to the latest listings, while our expert team provides personalized support every step of the way. Explore your next home with RYMZ and discover the difference we can make in your real estate journey.
           </p>
           <button className="mt-4 btn btn-primary">read more</button>
         </div>
